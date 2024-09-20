@@ -9,6 +9,7 @@ export const Container = styled.View`
 
 export const Title = styled.Text`
     color: ${({ theme }) => theme.colors.grey200};
+    font-family: ${({ theme }) => theme.fonts.bold};
 `;
 
 export const Preloader = styled.View`

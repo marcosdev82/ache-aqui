@@ -8,4 +8,8 @@ export default {
         grey100: '#f1f1f1' ,
         white: '#ffffff',
     },
+    fonts: {
+        regular: 'Inter_400Regular',
+        bold: 'Inter_700Bold',
+    },
 };
