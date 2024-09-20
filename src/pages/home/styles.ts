@@ -4,15 +4,15 @@ export const Container = styled.View`
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: ${props: => props.them.colors.white};
+    background-color: ${({ theme }) => theme.colors.white};
 `;
 
 export const Title = styled.Text`
-    color: #f2f2f2;
+    color: ${({ theme }) => theme.colors.grey200};
 `;
 
 export const Preloader = styled.View`
-    background-color: #118B59;
+    background-color: ${({ theme }) => theme.colors.green200};
     flex: 1;
     justify-content: center;
     align-items: center;
