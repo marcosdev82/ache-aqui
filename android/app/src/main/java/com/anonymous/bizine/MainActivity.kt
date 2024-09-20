@@ -1,4 +1,4 @@
-package com.bizine
+package com.anonymous.bizine
 
 import android.os.Build
 import android.os.Bundle

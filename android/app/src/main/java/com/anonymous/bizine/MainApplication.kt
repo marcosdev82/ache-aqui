@@ -1,4 +1,4 @@
-package com.bizine
+package com.anonymous.bizine
 
 import android.app.Application
 import android.content.res.Configuration

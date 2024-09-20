@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { View, ActivityIndicator } from 'react-native';
+import { ActivityIndicator } from 'react-native';
 import { Container, Preloader, Logotipo, Title } from './styles';
-import Logo from './../../assets/logo.png'; // Caminho da imagem do logo
+import Logo from './../../assets/logo.png'; 
 
 export const Home: React.FunctionComponent = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simula carregamento de dados (3 segundos)
     setTimeout(() => {
       setLoading(false);
     }, 3000);

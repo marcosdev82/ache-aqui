@@ -19,7 +19,7 @@ export const Preloader = styled.View`
 `;
 
 export const Logotipo = styled.Image`
-    width: 200px;  
-    height: 200px; 
+    width: 100px;  
+    height: 100px; 
     margin-bottom: 40px;
 `;
